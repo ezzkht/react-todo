@@ -57,13 +57,6 @@ export var startAddTodos = () => {
 
       dispatch(addTodos(todos));
     });
-
-      /*{
-        text,
-      completed: false,
-      createdAt: moment().unix(),
-      completedAt: null
-    };*/
   };
 };
 
