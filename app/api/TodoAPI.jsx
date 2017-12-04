@@ -1,7 +1,7 @@
 var $ = require('jquery');
 
 module.exports = {
-  setTodos: function(todos) {
+  /*setTodos: function(todos) {
     if ($.isArray(todos)) {
       localStorage.setItem('todos', JSON.stringify(todos));
       return todos;
@@ -16,7 +16,7 @@ module.exports = {
     } catch(e) {  }
 
     return $.isArray(todos) ? todos : [];
-  },
+  },*/
   filterTodos: function(todos, showCompleted, searchText) {
     var filteredTodos = todos;
 
